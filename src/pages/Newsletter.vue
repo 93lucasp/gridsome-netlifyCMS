@@ -13,28 +13,28 @@
 <script>
 export default {
   metaInfo: {
-    title: "Newsletter",
+    title: "",
     meta: [
-      { name: 'description', content: 'Join the newsletter of Not Only CSS to be always updated on frontend technologies' },
-      { property: 'og:title', content: 'Not Only CSS | Newsletter' },
-      { property: 'og:description', content: 'Join the newsletter of Not Only CSS to be always updated on frontend technologies' },
-      { property: 'og:image', content: 'https://www.notonlycss.com/uploads/share.png' },
-      { property: 'og:url', content: 'https://www.notonlycss.com/newsletter' },
+      { name: 'description', content: '' },
+      { property: 'og:title', content: '' },
+      { property: 'og:description', content: '' },
+      { property: 'og:image', content: '' },
+      { property: 'og:url', content: '' },
       {
         property: "twitter:card",
         content: "summary"
       },
       {
         property: "twitter:title",
-        content: "Not Only CSS | Newsletter"
+        content: ""
       },
       {
         property: "twitter:description",
-        content: "Join the newsletter of Not Only CSS to be always updated on frontend technologies"
+        content: ""
       },
       {
         property: "twitter:image",
-        content: "https://www.notonlycss.com/uploads/share.png"
+        content: ""
       },
     ]
   }

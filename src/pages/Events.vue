@@ -57,15 +57,15 @@ export default {
   metaInfo: {
     title: "Events",
     meta: [
-      { name: "description", content: "The events of Not Only CSS for frontend developers" },
-      { property: "og:title", content: "Not Only CSS | Events" },
+      { name: "description", content: "" },
+      { property: "og:title", content: "" },
       {
         property: "og:description",
-        content: "The events of Not Only CSS for frontend developers"
+        content: ""
       },
       {
         property: "og:image",
-        content: "https://www.notonlycss.com/uploads/share.png"
+        content: ""
       },
       {
         property: "twitter:card",
@@ -73,17 +73,17 @@ export default {
       },
       {
         property: "twitter:title",
-        content: "Not Only CSS | Events"
+        content: ""
       },
       {
         property: "twitter:description",
-        content: "The events of Not Only CSS for frontend developers"
+        content: ""
       },
       {
         property: "twitter:image",
-        content: "https://www.notonlycss.com/uploads/share.png"
+        content: ""
       },
-      { property: "og:url", content: "https://www.notonlycss.com/events" },
+      { property: "og:url", content: "" },
       { name: "robots", content: "index, follow" }
     ]
   }

@@ -32,26 +32,26 @@ export default {
   metaInfo: {
     title: "About",
     meta: [
-      { name: 'description', content: 'Articles, snippets, events and newsletter for frontend developers' },
-      { property: 'og:title', content: 'Not Only CSS | About' },
-      { property: 'og:description', content: 'Articles and tips for frontend developers' },
-      { property: 'og:image', content: 'https://www.notonlycss.com/uploads/share.png' },
-      { property: 'og:url', content: 'https://www.notonlycss.com/about' },
+      { name: 'description', content: '' },
+      { property: 'og:title', content: '' },
+      { property: 'og:description', content: '' },
+      { property: 'og:image', content: '' },
+      { property: 'og:url', content: '' },
       {
         property: "twitter:card",
         content: "summary"
       },
       {
         property: "twitter:title",
-        content: "Not Only CSS | About"
+        content: ""
       },
       {
         property: "twitter:description",
-        content: "Articles, snippets, events and newsletter for frontend developers"
+        content: ""
       },
       {
         property: "twitter:image",
-        content: "https://www.notonlycss.com/uploads/share.png"
+        content: ""
       },
     ]
   }

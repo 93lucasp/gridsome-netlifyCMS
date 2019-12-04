@@ -38,19 +38,19 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Snippets",
+    title: "",
     meta: [
-      { name: "description", content: "Snippets of web animations for frontend developers" },
-      { property: "og:title", content: "Not Only CSS | Snippets" },
+      { name: "description", content: "" },
+      { property: "og:title", content: "" },
       {
         property: "og:description",
-        content: "Snippets of web animations for frontend developers"
+        content: ""
       },
       {
         property: "og:image",
-        content: "https://www.notonlycss.com/uploads/share.png"
+        content: ""
       },
-      { property: "og:url", content: "https://www.notonlycss.com/snippets" },
+      { property: "og:url", content: "" },
       {
         property: "twitter:card",
         content: "summary"
@@ -61,11 +61,11 @@ export default {
       },
       {
         property: "twitter:description",
-        content: "Snippets of web animations for frontend developers"
+        content: ""
       },
       {
         property: "twitter:image",
-        content: "https://www.notonlycss.com/uploads/share.png"
+        content: ""
       },
     ]
   }
