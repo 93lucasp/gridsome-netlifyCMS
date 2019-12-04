@@ -97,6 +97,16 @@ module.exports = {
           // remark options
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'navs/**/*.md',
+        typeName: 'Nav',
+        remark: {
+          // remark options
+        }
+      }
     }
   ],
   transformers: {
