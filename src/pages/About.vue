@@ -30,7 +30,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "About",
+    title: "",
     meta: [
       { name: 'description', content: '' },
       { property: 'og:title', content: '' },

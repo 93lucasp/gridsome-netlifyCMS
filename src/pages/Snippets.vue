@@ -57,7 +57,7 @@ export default {
       },
       {
         property: "twitter:title",
-        content: "Not Only CSS | Snippets"
+        content: ""
       },
       {
         property: "twitter:description",
