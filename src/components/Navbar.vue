@@ -1,20 +1,20 @@
 <template>
   <nav class="navbar">
     <ul class="flex flex-wrap">
-        <li v-for="link in $static.links.edges" :key="link.id" class="mx-10">
-             {{link.node.title}} <br>
-            <div v-if="link.node.submenu == true ">
-                {{link.node.title1}}
-                {{link.node.title2}}
-                {{link.node.title3}}
-                {{link.node.title4}}
-                {{link.node.title5}}
-                {{link.node.title6}}
-                {{link.node.title7}}
-                {{link.node.title8}}
-            </div>
-          
-        </li>
+      <li v-for="link in $static.links.edges" :key="link.id" class="mx-10">
+        {{link.node.title}}
+        <br />
+        <div v-if="link.node.submenu == true ">
+          <p v-if="link.node.title1 !== ' ' ">{{link.node.title1}}</p>
+          <p v-if="link.node.title2 !== ' ' ">{{link.node.title2}}</p>
+          <p v-if="link.node.title3 !== ' ' ">{{link.node.title3}}</p>
+          <p v-if="link.node.title4 !== ' ' ">{{link.node.title4}}</p>
+          <p v-if="link.node.title5 !== ' ' ">{{link.node.title5}}</p>
+          <p v-if="link.node.title6 !== ' ' ">{{link.node.title6}}</p>
+          <p v-if="link.node.title7 !== ' ' ">{{link.node.title7}}</p>
+          <p v-if="link.node.title8 !== ' ' ">{{link.node.title8}}</p>
+        </div>
+      </li>
     </ul>
   </nav>
 </template>
