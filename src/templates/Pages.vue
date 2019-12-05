@@ -7,7 +7,7 @@
         :style="{ 'background-image': 'url(' + $page.page.image + ')' }"
       ></div>
       <!-- <i><time>{{$page.event.date}}</time></i> -->
-      <div v-html="$page.event.content"></div>
+      <!-- <div v-html="$page.event.content"></div> -->
     </div>
   </Layout>
 </template>
@@ -28,7 +28,7 @@ query ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.title.title
+      title: this.$page.page.title
     };
   }
 };
