@@ -5,7 +5,11 @@
         {{link.node.title}}
         <br />
         <div v-if="link.node.submenu == true ">
-          <p v-if="link.node.title1 !== '' ">{{link.node.title1}}</p>
+          <!-- <p v-if="link.node.title1 !== '' ">{{link.node.title1}} -->
+          <g-link
+              :to="link.node.page1"
+            >{{link.node.title1}}</g-link>
+            </p>
           <p v-if="link.node.title2 !== '' ">{{link.node.title2}}</p>
           <p v-if="link.node.title3 !== '' ">{{link.node.title3}}</p>
           <p v-if="link.node.title4 !== '' ">{{link.node.title4}}</p>
