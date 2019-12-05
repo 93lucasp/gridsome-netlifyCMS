@@ -1,5 +1,8 @@
 <template>
   <Layout>
+    <div v-for="text in $page.texts.edges" :key="text.id">
+      {{text}}
+    </div>
     <!-- <h1 class="text-3xl md:text-4xl font-bold mb-3">Articles <i class="fas fa-book-reader ml-2 text-2xl"></i></h1>
     <div class="flex items-start rounded bg-primary px-8 py-3 mb-16">
       <div>
@@ -108,6 +111,16 @@ query {
         link
         date
         author
+      }
+    }
+  }
+  texts: allHome {
+    edges {
+      node {
+        headerTitle
+        headerSubtitle
+        headerDescription
+        headerImage
       }
     }
   }
