@@ -3,7 +3,7 @@ title: test page
 page: www.google.com
 submenu: true
 title1: link1
-page1: /titolo-pagina1
+page1: /pages/titolo-pagina1
 title2: link2
 page2: www.google.com/link2
 title3: link3
