@@ -52,20 +52,20 @@ collections:
         - {label: "Submenu", name: "submenu", widget: "boolean", default: false}
         - {label: "Title1", name: "title1", widget: "string"}
         - {label: "Page1", name: "page1", widget: "string"}
-        - {label: "Title2", name: "title1", widget: "string"}
-        - {label: "Page2", name: "page1", widget: "string"}
-        - {label: "Title3", name: "title1", widget: "string"}
-        - {label: "Page3", name: "page1", widget: "string"}
-        - {label: "Title4", name: "title1", widget: "string"}
-        - {label: "Page4", name: "page1", widget: "string"}
-        - {label: "Title5", name: "title1", widget: "string"}
-        - {label: "Page5", name: "page1", widget: "string"}
-        - {label: "Title6", name: "title1", widget: "string"}
-        - {label: "Page6", name: "page1", widget: "string"}
-        - {label: "Title7", name: "title1", widget: "string"}
-        - {label: "Page7", name: "page1", widget: "string"}
-        - {label: "Title8", name: "title1", widget: "string"}
-        - {label: "Page8", name: "page1", widget: "string"}
+        - {label: "Title2", name: "title2", widget: "string"}
+        - {label: "Page2", name: "page2", widget: "string"}
+        - {label: "Title3", name: "title3", widget: "string"}
+        - {label: "Page3", name: "page3", widget: "string"}
+        - {label: "Title4", name: "title4", widget: "string"}
+        - {label: "Page4", name: "page4", widget: "string"}
+        - {label: "Title5", name: "title5", widget: "string"}
+        - {label: "Page5", name: "page5", widget: "string"}
+        - {label: "Title6", name: "title6", widget: "string"}
+        - {label: "Page6", name: "page6", widget: "string"}
+        - {label: "Title7", name: "title7", widget: "string"}
+        - {label: "Page7", name: "page7", widget: "string"}
+        - {label: "Title8", name: "title8", widget: "string"}
+        - {label: "Page8", name: "page8", widget: "string"}
   # - name: "blog" # Used in routes, e.g., /admin/collections/blog
   #   label: "Blog" # Used in the UI
   #   folder: "blog" # The path to the folder where the documents are stored
