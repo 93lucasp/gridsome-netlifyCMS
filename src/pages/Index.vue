@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="text-3xl md:text-4xl font-bold mb-3">Articles <i class="fas fa-book-reader ml-2 text-2xl"></i></h1>
+    <!-- <h1 class="text-3xl md:text-4xl font-bold mb-3">Articles <i class="fas fa-book-reader ml-2 text-2xl"></i></h1>
     <div class="flex items-start rounded bg-primary px-8 py-3 mb-16">
       <div>
         <i class="fas fa-info text-xs"></i>
@@ -16,9 +16,9 @@
         The links of Medium that we provide guarantee everyone <b>free access</b> to all our articles.
 
       </p>
-    </div>
+    </div>-->
 
-    <ul class="articles-list">
+    <!-- <ul class="articles-list">
       <li
         v-for="article in $page.articles.edges"
         :key="article.id"
@@ -46,7 +46,7 @@
           </a>
         </div>
       </li>
-    </ul>
+    </ul>-->
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/favicon.png" width="135" />
@@ -111,6 +111,7 @@ query {
       }
     }
   }
+ 
 }
 </page-query>
 <script>
@@ -146,14 +147,14 @@ export default {
         property: "twitter:image",
         content: "https://www.notonlycss.com/uploads/share.png"
       },
-      { property: "og:url", content: "https://www.notonlycss.com" },
+      { property: "og:url", content: "https://www.notonlycss.com" }
     ]
   },
   methods: {
     formatDate(date) {
-      var newDate = new Date(date)
-      var options =  { year: 'numeric', month: 'short', day: 'numeric' }
-      return(newDate.toLocaleDateString('en',options ))
+      var newDate = new Date(date);
+      var options = { year: "numeric", month: "short", day: "numeric" };
+      return newDate.toLocaleDateString("en", options);
     }
   }
 };

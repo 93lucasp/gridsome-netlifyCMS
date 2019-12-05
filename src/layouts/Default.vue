@@ -1,30 +1,13 @@
 <template>
   <div class="layout">
-    <header class="flex items-center justify-between py-6">
-      <g-link to="/" class="nav__link">
-        <g-image alt="Logo Not Only CSS" src="~/images/notonlycss.png" class="logo relative z-10" />
-      </g-link>
-      <div
-        class="hamburger-container md:hidden z-10 relative flex items-center"
-        @click="hamburger()"
-      >
-        <div class="hamburger"></div>
-      </div>
-
-      <nav class="nav">
-        <g-link class="nav__link text-white mx-3" to="/snippets">Snippets</g-link>
-        <g-link class="nav__link text-white mx-3" to="/events/">Events</g-link>
-        <g-link class="nav__link text-white mx-3" to="/newsletter/">Newsletter</g-link>
-        <g-link class="nav__link text-white ml-3" to="/about/">About</g-link>
-      </nav>
-    </header>
+    <Navbar />
     <hr class="mb-16" />
     <div class="container mb-40">
       <slot />
     </div>
 
     <hr />
-    <footer class="footer py-6 md:flex items-center justify-between text-center md:text-left">
+    <!-- <footer class="footer py-6 md:flex items-center justify-between text-center md:text-left">
       <p>
         Not Only CSS is proudly
         <br />running on
@@ -35,7 +18,10 @@
         >Netlify</a>.
       </p>
       <p class="py-3 md:py-0">
-        <a href="mailto:info@notonlycss.com">Write for us <i class="fas fa-pencil-alt ml-2"></i></a>
+        <a href="mailto:info@notonlycss.com">
+          Write for us
+          <i class="fas fa-pencil-alt ml-2"></i>
+        </a>
       </p>
       <ul class="flex justify-center md:justify-end">
         <li>
@@ -69,21 +55,29 @@
           </a>
         </li>
       </ul>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
 
 <script>
+import Navbar from "~/components/Navbar.vue";
 export default {
+  components: {
+    Navbar
+  },
+
   methods: {
     hamburger: function(el) {
-      document.querySelector(".hamburger").classList.toggle("hamburger--active");
+      document
+        .querySelector(".hamburger")
+        .classList.toggle("hamburger--active");
       document.querySelector("nav").classList.toggle("nav--active");
     }
   }
 };
 </script>
+
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 hr {
@@ -184,14 +178,12 @@ body {
   }
 }
 .btn-cta {
-  
+  background-color: #3399ff;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid #fff;
     background-color: #3399ff;
-    transition: all 0.2s;
-    border: 1px solid transparent;
-    &:hover {
-      border: 1px solid #fff;
-      background-color: #3399ff;
-    }
-  
+  }
 }
 </style>
