@@ -107,6 +107,16 @@ module.exports = {
           // remark options
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'home/**/*.md',
+        typeName: 'Home',
+        remark: {
+          // remark options
+        }
+      }
     }
   ],
   transformers: {
